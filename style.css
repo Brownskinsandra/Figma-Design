@@ -5,7 +5,7 @@
 body{
     background-color: #F1F7FE;
 }
-nav{margin: 0;
+.nav{margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -17,8 +17,6 @@ nav{margin: 0;
 .navbar {
     display: flex;
     margin-top: 5px;
-    
-   
 }
 
 ul {
@@ -110,4 +108,96 @@ button{
 .span{
     line-height: 25px;
     text-align: center;
+}
+
+@media screen and (max-width: 500px)
+{ 
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        width: 0%;
+        padding: 0px;
+        margin-right: 10px;
+        display: flex;
+    }
+    .logo h5 img{
+        width: 40px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 0%;
+        margin: 0px;
+        width: 100%;
+    }
+    li{
+        font-size: 9px;
+        padding: 0%;
+        margin: 0px;
+    }
+        .container-1 {
+            display: flex;
+        }
+    p {
+            font-size: 9px;
+        }
+    h2{
+        font-size: 9px;
+    }
+    span {
+            width: 50%;
+            height: 20px;
+            margin: 10px;
+            margin-bottom: 170px;
+        }
+    .all {
+            display: grid;
+            grid-template-columns: repeat(3, 120px);
+            justify-content: center;
+                }
+        
+    .box {
+            background-color: white;
+            border-radius: 5px;
+            align-items: center;
+            width: 5;
+            height: 140px;
+                }
+    .container-2 {
+            display: flex;
+            font-size: 5px;
+            justify-content: space-between;
+        }
+    .container-2 span img{
+        width: 150px;
+    }
+    .container-3 {
+            height: 200px;
+            background-color: #5FA7F2;
+            color: white;
+            border-radius: 8px;
+            padding: 2px;
+            font-size: xx-small;
+            letter-spacing: 1px;
+        }
+        
+    .group {
+            margin-right:70px ;
+            display: flex;
+            align-content: center;
+            font-size: xx-small;
+                }
+    .group div{
+           width: 30%;
+    }
+        .span {
+            line-height: 20px;
+            text-align: center;
+        }
 }
